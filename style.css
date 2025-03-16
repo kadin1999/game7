@@ -1,0 +1,18 @@
+/* Body Styling for Custom Background */
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('sky.avif') no-repeat center center fixed; /* Custom background image */
+    background-size: cover; /* Ensure the background fills the screen */
+  }
+  
+  /* Canvas Styling */
+  canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+  
